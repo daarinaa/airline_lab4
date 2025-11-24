@@ -4,7 +4,7 @@ import uvicorn
 
 from database import engine
 from models import *
-from requests import AirlineRequests
+from airline_requests import AirlineRequests
 
 app = FastAPI()
 
